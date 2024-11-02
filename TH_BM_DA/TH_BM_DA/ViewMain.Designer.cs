@@ -34,6 +34,7 @@
             this.btnHoKhau = new System.Windows.Forms.Button();
             this.btnGPLaiXe = new System.Windows.Forms.Button();
             this.btnDsLoaiGP = new System.Windows.Forms.Button();
+            this.btn_logout = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -56,6 +57,7 @@
             this.btnCongDan.TabIndex = 1;
             this.btnCongDan.Text = "Dữ liệu công dân";
             this.btnCongDan.UseVisualStyleBackColor = false;
+            this.btnCongDan.Click += new System.EventHandler(this.btnCongDan_Click);
             // 
             // btnHoKhau
             // 
@@ -67,6 +69,7 @@
             this.btnHoKhau.TabIndex = 1;
             this.btnHoKhau.Text = "Dữ liệu hộ khẩu";
             this.btnHoKhau.UseVisualStyleBackColor = false;
+            this.btnHoKhau.Click += new System.EventHandler(this.btnHoKhau_Click);
             // 
             // btnGPLaiXe
             // 
@@ -78,6 +81,7 @@
             this.btnGPLaiXe.TabIndex = 2;
             this.btnGPLaiXe.Text = "Dữ liệu GP lái xe";
             this.btnGPLaiXe.UseVisualStyleBackColor = false;
+            this.btnGPLaiXe.Click += new System.EventHandler(this.btnGPLaiXe_Click);
             // 
             // btnDsLoaiGP
             // 
@@ -89,6 +93,19 @@
             this.btnDsLoaiGP.TabIndex = 3;
             this.btnDsLoaiGP.Text = "dữ liệu bằng lái";
             this.btnDsLoaiGP.UseVisualStyleBackColor = false;
+            this.btnDsLoaiGP.Click += new System.EventHandler(this.btnDsLoaiGP_Click);
+            // 
+            // btn_logout
+            // 
+            this.btn_logout.BackColor = System.Drawing.Color.OrangeRed;
+            this.btn_logout.Font = new System.Drawing.Font("Microsoft Sans Serif", 25.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_logout.Location = new System.Drawing.Point(535, 671);
+            this.btn_logout.Name = "btn_logout";
+            this.btn_logout.Size = new System.Drawing.Size(326, 73);
+            this.btn_logout.TabIndex = 4;
+            this.btn_logout.Text = "ĐĂNG XUẤT";
+            this.btn_logout.UseVisualStyleBackColor = false;
+            this.btn_logout.Click += new System.EventHandler(this.btn_logout_Click);
             // 
             // ViewMain
             // 
@@ -98,6 +115,7 @@
             this.BackgroundImage = global::TH_BM_DA.Properties.Resources.images1456983_1;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.ClientSize = new System.Drawing.Size(1420, 767);
+            this.Controls.Add(this.btn_logout);
             this.Controls.Add(this.btnDsLoaiGP);
             this.Controls.Add(this.btnGPLaiXe);
             this.Controls.Add(this.btnHoKhau);
@@ -120,5 +138,6 @@
         private System.Windows.Forms.Button btnHoKhau;
         private System.Windows.Forms.Button btnGPLaiXe;
         private System.Windows.Forms.Button btnDsLoaiGP;
+        private System.Windows.Forms.Button btn_logout;
     }
 }

@@ -69,8 +69,7 @@ namespace TH_BM_DA
                     // Hiển thị form mới
                     viewmain.ShowDialog();
 
-                    // Sau khi đóng form2, hiển thị lại form hiện tại (tùy chọn)
-                    this.Show();
+
                     
                     btnLO.Visible = true;
                 }
