@@ -15,6 +15,8 @@ namespace TH_BM_DA
         public ViewMain()
         {
             InitializeComponent();
+            label1.BackColor = System.Drawing.Color.Transparent;
+            this.StartPosition = FormStartPosition.CenterScreen;
         }
     }
 }

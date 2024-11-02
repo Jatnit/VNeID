@@ -63,6 +63,26 @@ namespace TH_BM_DA.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap db02679d039a230d9a37caec679d1b3b {
+            get {
+                object obj = ResourceManager.GetObject("db02679d039a230d9a37caec679d1b3b", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap images1456983_1 {
+            get {
+                object obj = ResourceManager.GetObject("images1456983_1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap pngtree_vietnam_dong_son_bronze_drum_pattern_orange_red_background_image_1440056 {
             get {
                 object obj = ResourceManager.GetObject("pngtree-vietnam-dong-son-bronze-drum-pattern-orange-red-background-image_1440056", resourceCulture);

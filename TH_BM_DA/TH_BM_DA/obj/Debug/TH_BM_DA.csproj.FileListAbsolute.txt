@@ -16,3 +16,16 @@ D:\Quá trình học ĐH\Các môn HK7\TH BMHTTT\TH_BM_DA\TH_BM_DA\obj\Debug\TH_
 D:\Quá trình học ĐH\Các môn HK7\TH BMHTTT\TH_BM_DA\TH_BM_DA\obj\Debug\TH_BM_DA.Properties.Resources.resources
 D:\Quá trình học ĐH\Các môn HK7\TH BMHTTT\TH_BM_DA\TH_BM_DA\obj\Debug\TH_BM_DA.csproj.GenerateResource.Cache
 D:\Quá trình học ĐH\Các môn HK7\TH BMHTTT\TH_BM_DA\TH_BM_DA\obj\Debug\TH_BM_DA.Login.resources
+C:\Users\Jatnit\OneDrive\Tài liệu\GitHub\VNeID\TH_BM_DA\TH_BM_DA\bin\Debug\TH_BM_DA.exe.config
+C:\Users\Jatnit\OneDrive\Tài liệu\GitHub\VNeID\TH_BM_DA\TH_BM_DA\obj\Debug\TH_BM_DA.exe
+C:\Users\Jatnit\OneDrive\Tài liệu\GitHub\VNeID\TH_BM_DA\TH_BM_DA\obj\Debug\TH_BM_DA.pdb
+C:\Users\Jatnit\OneDrive\Tài liệu\GitHub\VNeID\TH_BM_DA\TH_BM_DA\bin\Debug\TH_BM_DA.exe
+C:\Users\Jatnit\OneDrive\Tài liệu\GitHub\VNeID\TH_BM_DA\TH_BM_DA\bin\Debug\TH_BM_DA.pdb
+C:\Users\Jatnit\OneDrive\Tài liệu\GitHub\VNeID\TH_BM_DA\TH_BM_DA\obj\Debug\TH_BM_DA.csprojResolveAssemblyReference.cache
+C:\Users\Jatnit\OneDrive\Tài liệu\GitHub\VNeID\TH_BM_DA\TH_BM_DA\obj\Debug\TH_BM_DA.Login.resources
+C:\Users\Jatnit\OneDrive\Tài liệu\GitHub\VNeID\TH_BM_DA\TH_BM_DA\obj\Debug\TH_BM_DA.Properties.Resources.resources
+C:\Users\Jatnit\OneDrive\Tài liệu\GitHub\VNeID\TH_BM_DA\TH_BM_DA\obj\Debug\TH_BM_DA.csproj.GenerateResource.Cache
+C:\Users\Jatnit\OneDrive\Tài liệu\GitHub\VNeID\TH_BM_DA\TH_BM_DA\obj\Debug\TH_BM_DA.ViewCongDan.resources
+C:\Users\Jatnit\OneDrive\Tài liệu\GitHub\VNeID\TH_BM_DA\TH_BM_DA\obj\Debug\TH_BM_DA.ViewGPLaiXe.resources
+C:\Users\Jatnit\OneDrive\Tài liệu\GitHub\VNeID\TH_BM_DA\TH_BM_DA\obj\Debug\TH_BM_DA.ViewHoKhau.resources
+C:\Users\Jatnit\OneDrive\Tài liệu\GitHub\VNeID\TH_BM_DA\TH_BM_DA\obj\Debug\TH_BM_DA.ViewMain.resources

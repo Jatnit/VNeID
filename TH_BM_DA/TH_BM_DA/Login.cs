@@ -19,6 +19,7 @@ namespace TH_BM_DA
             InitializeComponent();
             btnLO.Visible = false;
             txtPW.PasswordChar = '*';
+            this.StartPosition = FormStartPosition.CenterScreen;
         }
         
 
@@ -59,8 +60,17 @@ namespace TH_BM_DA
                 if (Database.Connect())
                 {
                     OracleConnection c = Database.Get_Connect(); 
-                    MessageBox.Show("Đăng nhập thành công\nServerVersion: " + c.ServerVersion);
+                    MessageBox.Show("Đăng nhập thành công");
+                    ViewMain viewmain = new ViewMain();
 
+                    // Ẩn form hiện tại
+                    this.Hide();
+
+                    // Hiển thị form mới
+                    viewmain.ShowDialog();
+
+                    // Sau khi đóng form2, hiển thị lại form hiện tại (tùy chọn)
+                    this.Show();
                     
                     btnLO.Visible = true;
                 }

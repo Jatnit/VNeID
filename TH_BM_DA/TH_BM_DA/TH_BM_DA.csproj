@@ -92,6 +92,18 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="ViewCongDan.resx">
+      <DependentUpon>ViewCongDan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewGPLaiXe.resx">
+      <DependentUpon>ViewGPLaiXe.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewHoKhau.resx">
+      <DependentUpon>ViewHoKhau.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewMain.resx">
+      <DependentUpon>ViewMain.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -110,6 +122,15 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="pngtree-vietnam-dong-son-bronze-drum-pattern-orange-red-background-image_1440056.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="BM\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\db02679d039a230d9a37caec679d1b3b.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images1456983_1.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
