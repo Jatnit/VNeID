@@ -29,7 +29,33 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ViewHoKhau));
+            this.btn_back = new System.Windows.Forms.Button();
+            this.btn_backk = new System.Windows.Forms.Button();
             this.SuspendLayout();
+            // 
+            // btn_back
+            // 
+            this.btn_back.BackColor = System.Drawing.Color.OrangeRed;
+            this.btn_back.Font = new System.Drawing.Font("Microsoft Sans Serif", 25.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_back.Location = new System.Drawing.Point(1420, 678);
+            this.btn_back.Name = "btn_back";
+            this.btn_back.Size = new System.Drawing.Size(244, 66);
+            this.btn_back.TabIndex = 6;
+            this.btn_back.Text = "QUAY LẠI";
+            this.btn_back.UseVisualStyleBackColor = false;
+            this.btn_back.Click += new System.EventHandler(this.btn_logout_Click);
+            // 
+            // btn_backk
+            // 
+            this.btn_backk.BackColor = System.Drawing.Color.OrangeRed;
+            this.btn_backk.Font = new System.Drawing.Font("Microsoft Sans Serif", 22.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_backk.Location = new System.Drawing.Point(1164, 33);
+            this.btn_backk.Name = "btn_backk";
+            this.btn_backk.Size = new System.Drawing.Size(244, 66);
+            this.btn_backk.TabIndex = 7;
+            this.btn_backk.Text = "QUAY LẠI";
+            this.btn_backk.UseVisualStyleBackColor = false;
+            this.btn_backk.Click += new System.EventHandler(this.btn_backk_Click);
             // 
             // ViewHoKhau
             // 
@@ -38,7 +64,10 @@
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.BackgroundImage = global::TH_BM_DA.Properties.Resources.images1456983_1;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.ClientSize = new System.Drawing.Size(1420, 767);
+            this.ClientSize = new System.Drawing.Size(1420, 678);
+            this.Controls.Add(this.btn_backk);
+            this.Controls.Add(this.btn_back);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.MinimizeBox = false;
@@ -49,5 +78,8 @@
         }
 
         #endregion
+
+        private System.Windows.Forms.Button btn_back;
+        private System.Windows.Forms.Button btn_backk;
     }
 }

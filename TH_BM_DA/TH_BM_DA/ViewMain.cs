@@ -21,22 +21,50 @@ namespace TH_BM_DA
 
         private void btnCongDan_Click(object sender, EventArgs e)
         {
+            ViewCongDan viewcongdan = new ViewCongDan();
 
+            // Ẩn form hiện tại
+            this.Hide();
+            this.Close();
+
+            // Hiển thị form mới
+            viewcongdan.ShowDialog();
         }
 
         private void btnHoKhau_Click(object sender, EventArgs e)
         {
+            ViewHoKhau viewhokhau = new ViewHoKhau();
 
+            // Ẩn form hiện tại
+            this.Hide();
+            this.Close();
+
+            // Hiển thị form mới
+            viewhokhau.ShowDialog();
         }
 
         private void btnGPLaiXe_Click(object sender, EventArgs e)
         {
+            ViewGPLaiXe viewgplaixe = new ViewGPLaiXe();
 
+            // Ẩn form hiện tại
+            this.Hide();
+            this.Close();
+
+            // Hiển thị form mới
+            viewgplaixe.ShowDialog();
         }
 
         private void btnDsLoaiGP_Click(object sender, EventArgs e)
         {
+            //ViewHoKhau viewhokhau = new ViewHoKhau();
 
+            //// Ẩn form hiện tại
+            //this.Hide();
+            //this.Close();
+
+            //// Hiển thị form mới
+            //viewhokhau.ShowDialog();
         }
 
         private void btn_logout_Click(object sender, EventArgs e)
@@ -44,6 +72,7 @@ namespace TH_BM_DA
             Login login = new Login();
 
             // Ẩn form hiện tại
+            this.Hide();
             this.Close();
 
             // Hiển thị form mới

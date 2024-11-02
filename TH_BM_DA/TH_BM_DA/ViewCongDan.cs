@@ -15,6 +15,19 @@ namespace TH_BM_DA
         public ViewCongDan()
         {
             InitializeComponent();
+            this.StartPosition = FormStartPosition.CenterScreen;
+        }
+
+        private void btn_logout_Click(object sender, EventArgs e)
+        {
+            ViewMain viewmain = new ViewMain();
+
+            // Ẩn form hiện tại
+            this.Hide();
+            this.Close();
+
+            // Hiển thị form mới
+            viewmain.ShowDialog();
         }
     }
 }

@@ -99,7 +99,7 @@
             // 
             this.btn_logout.BackColor = System.Drawing.Color.OrangeRed;
             this.btn_logout.Font = new System.Drawing.Font("Microsoft Sans Serif", 25.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_logout.Location = new System.Drawing.Point(535, 671);
+            this.btn_logout.Location = new System.Drawing.Point(547, 593);
             this.btn_logout.Name = "btn_logout";
             this.btn_logout.Size = new System.Drawing.Size(326, 73);
             this.btn_logout.TabIndex = 4;
@@ -114,13 +114,14 @@
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.BackgroundImage = global::TH_BM_DA.Properties.Resources.images1456983_1;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.ClientSize = new System.Drawing.Size(1420, 767);
+            this.ClientSize = new System.Drawing.Size(1420, 678);
             this.Controls.Add(this.btn_logout);
             this.Controls.Add(this.btnDsLoaiGP);
             this.Controls.Add(this.btnGPLaiXe);
             this.Controls.Add(this.btnHoKhau);
             this.Controls.Add(this.btnCongDan);
             this.Controls.Add(this.label1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.MinimizeBox = false;

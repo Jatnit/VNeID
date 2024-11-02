@@ -36,6 +36,7 @@
             this.btnConnect = new System.Windows.Forms.Button();
             this.btnLO = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.btnThoat = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -51,7 +52,7 @@
             this.label1.Location = new System.Drawing.Point(257, 332);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(256, 52);
+            this.label1.Size = new System.Drawing.Size(252, 51);
             this.label1.TabIndex = 0;
             this.label1.Text = "Tài Khoản :";
             // 
@@ -66,7 +67,7 @@
             this.label2.Location = new System.Drawing.Point(267, 402);
             this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(243, 52);
+            this.label2.Size = new System.Drawing.Size(239, 51);
             this.label2.TabIndex = 1;
             this.label2.Text = "Mật Khẩu :";
             // 
@@ -79,7 +80,7 @@
             this.txtU.Location = new System.Drawing.Point(539, 332);
             this.txtU.Margin = new System.Windows.Forms.Padding(4);
             this.txtU.Name = "txtU";
-            this.txtU.Size = new System.Drawing.Size(601, 56);
+            this.txtU.Size = new System.Drawing.Size(614, 56);
             this.txtU.TabIndex = 2;
             // 
             // txtPW
@@ -91,7 +92,7 @@
             this.txtPW.Location = new System.Drawing.Point(539, 402);
             this.txtPW.Margin = new System.Windows.Forms.Padding(4);
             this.txtPW.Name = "txtPW";
-            this.txtPW.Size = new System.Drawing.Size(601, 56);
+            this.txtPW.Size = new System.Drawing.Size(614, 56);
             this.txtPW.TabIndex = 3;
             // 
             // btnConnect
@@ -99,14 +100,14 @@
             this.btnConnect.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.btnConnect.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.btnConnect.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnConnect.Font = new System.Drawing.Font("Microsoft Sans Serif", 34.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnConnect.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.btnConnect.Location = new System.Drawing.Point(407, 550);
+            this.btnConnect.Location = new System.Drawing.Point(727, 550);
             this.btnConnect.Margin = new System.Windows.Forms.Padding(4);
             this.btnConnect.Name = "btnConnect";
-            this.btnConnect.Size = new System.Drawing.Size(606, 97);
+            this.btnConnect.Size = new System.Drawing.Size(426, 97);
             this.btnConnect.TabIndex = 4;
-            this.btnConnect.Text = "Đăng Nhập";
+            this.btnConnect.Text = "ĐĂNG NHẬP";
             this.btnConnect.UseVisualStyleBackColor = false;
             this.btnConnect.Click += new System.EventHandler(this.btnConnect_Click);
             // 
@@ -115,14 +116,14 @@
             this.btnLO.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.btnLO.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.btnLO.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnLO.Font = new System.Drawing.Font("Microsoft Sans Serif", 34.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnLO.ForeColor = System.Drawing.SystemColors.Control;
-            this.btnLO.Location = new System.Drawing.Point(407, 550);
+            this.btnLO.Location = new System.Drawing.Point(727, 550);
             this.btnLO.Margin = new System.Windows.Forms.Padding(4);
             this.btnLO.Name = "btnLO";
-            this.btnLO.Size = new System.Drawing.Size(606, 97);
+            this.btnLO.Size = new System.Drawing.Size(426, 97);
             this.btnLO.TabIndex = 5;
-            this.btnLO.Text = "Đăng Xuất";
+            this.btnLO.Text = "ĐĂNG XUẤT";
             this.btnLO.UseVisualStyleBackColor = false;
             this.btnLO.Click += new System.EventHandler(this.btnLO_Click);
             // 
@@ -137,6 +138,22 @@
             this.pictureBox1.TabIndex = 6;
             this.pictureBox1.TabStop = false;
             // 
+            // btnThoat
+            // 
+            this.btnThoat.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnThoat.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.btnThoat.Font = new System.Drawing.Font("Microsoft Sans Serif", 34.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnThoat.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.btnThoat.Location = new System.Drawing.Point(266, 550);
+            this.btnThoat.Margin = new System.Windows.Forms.Padding(4);
+            this.btnThoat.Name = "btnThoat";
+            this.btnThoat.Size = new System.Drawing.Size(426, 97);
+            this.btnThoat.TabIndex = 7;
+            this.btnThoat.Text = "THOÁT";
+            this.btnThoat.UseVisualStyleBackColor = false;
+            this.btnThoat.Click += new System.EventHandler(this.btnThoat_Click);
+            // 
             // Login
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -145,6 +162,7 @@
             this.BackgroundImage = global::TH_BM_DA.Properties.Resources.pngtree_vietnam_dong_son_bronze_drum_pattern_orange_red_background_image_1440056;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1420, 767);
+            this.Controls.Add(this.btnThoat);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.btnLO);
             this.Controls.Add(this.btnConnect);
@@ -152,12 +170,14 @@
             this.Controls.Add(this.txtU);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(4);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "Login";
             this.Text = "VNeID";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Login_FormClosing);
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
@@ -174,6 +194,7 @@
         private System.Windows.Forms.Button btnConnect;
         private System.Windows.Forms.Button btnLO;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Button btnThoat;
     }
 }
 

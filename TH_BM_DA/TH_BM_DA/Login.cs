@@ -94,5 +94,32 @@ namespace TH_BM_DA
                 MessageBox.Show("Không có kết nối nào để đóng.", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
         }
+
+        private void Login_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            // Kiểm tra lựa chọn của người dùng
+            DialogResult result = MessageBox.Show("Bạn có chắc chắn muốn đóng không?", "Xác nhận", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+
+            // Kiểm tra lựa chọn của người dùng
+            if (result == DialogResult.No)
+            {
+                // Hủy sự kiện đóng form nếu người dùng chọn "No"
+                e.Cancel = true;
+            }
+        }
+
+        private void btnThoat_Click(object sender, EventArgs e)
+        {
+            // Hiển thị thông báo xác nhận
+            DialogResult result = MessageBox.Show("Bạn có chắc chắn muốn đóng không?", "Xác nhận", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+
+            // Kiểm tra lựa chọn của người dùng
+            if (result == DialogResult.Yes)
+            {
+                // Đóng form nếu người dùng chọn "Yes"
+                this.Close();
+            }
+            // Nếu người dùng chọn "No", form sẽ tiếp tục chạy và không đóng
+        }
     }
 }
