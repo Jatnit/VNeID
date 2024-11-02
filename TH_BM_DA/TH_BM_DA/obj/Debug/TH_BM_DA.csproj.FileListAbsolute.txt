@@ -13,6 +13,6 @@ D:\Quá trình học ĐH\Các môn HK7\TH BMHTTT\TH_BM_DA\TH_BM_DA\obj\Debug\TH_
 D:\Quá trình học ĐH\Các môn HK7\TH BMHTTT\TH_BM_DA\TH_BM_DA\bin\Debug\TH_BM_DA.exe
 D:\Quá trình học ĐH\Các môn HK7\TH BMHTTT\TH_BM_DA\TH_BM_DA\bin\Debug\TH_BM_DA.pdb
 D:\Quá trình học ĐH\Các môn HK7\TH BMHTTT\TH_BM_DA\TH_BM_DA\obj\Debug\TH_BM_DA.csprojResolveAssemblyReference.cache
-D:\Quá trình học ĐH\Các môn HK7\TH BMHTTT\TH_BM_DA\TH_BM_DA\obj\Debug\TH_BM_DA.Form1.resources
 D:\Quá trình học ĐH\Các môn HK7\TH BMHTTT\TH_BM_DA\TH_BM_DA\obj\Debug\TH_BM_DA.Properties.Resources.resources
 D:\Quá trình học ĐH\Các môn HK7\TH BMHTTT\TH_BM_DA\TH_BM_DA\obj\Debug\TH_BM_DA.csproj.GenerateResource.Cache
+D:\Quá trình học ĐH\Các môn HK7\TH BMHTTT\TH_BM_DA\TH_BM_DA\obj\Debug\TH_BM_DA.Login.resources
