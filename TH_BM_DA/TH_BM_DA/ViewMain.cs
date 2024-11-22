@@ -57,14 +57,14 @@ namespace TH_BM_DA
 
         private void btnDsLoaiGP_Click(object sender, EventArgs e)
         {
-            //ViewHoKhau viewhokhau = new ViewHoKhau();
+            ViewHoKhau viewhokhau = new ViewHoKhau();
 
-            //// Ẩn form hiện tại
-            //this.Hide();
-            //this.Close();
+            // Ẩn form hiện tại
+            this.Hide();
+            this.Close();
 
-            //// Hiển thị form mới
-            //viewhokhau.ShowDialog();
+            // Hiển thị form mới
+            viewhokhau.ShowDialog();
         }
 
         private void btn_logout_Click(object sender, EventArgs e)

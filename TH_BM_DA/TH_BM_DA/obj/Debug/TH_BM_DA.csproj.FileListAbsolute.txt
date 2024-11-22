@@ -30,3 +30,11 @@ C:\Users\Jatnit\OneDrive\Tài liệu\GitHub\VNeID\TH_BM_DA\TH_BM_DA\obj\Debug\TH
 C:\Users\Jatnit\OneDrive\Tài liệu\GitHub\VNeID\TH_BM_DA\TH_BM_DA\obj\Debug\TH_BM_DA.ViewMain.resources
 C:\Users\Jatnit\OneDrive\Tài liệu\GitHub\VNeID\TH_BM_DA\TH_BM_DA\obj\Debug\TH_BM_DA.csproj.AssemblyReference.cache
 C:\Users\Jatnit\OneDrive\Tài liệu\GitHub\VNeID\TH_BM_DA\TH_BM_DA\obj\Debug\TH_BM_DA.csproj.CoreCompileInputs.cache
+D:\TongHop\THBM\VNeID\TH_BM_DA\TH_BM_DA\obj\Debug\TH_BM_DA.Login.resources
+D:\TongHop\THBM\VNeID\TH_BM_DA\TH_BM_DA\obj\Debug\TH_BM_DA.Properties.Resources.resources
+D:\TongHop\THBM\VNeID\TH_BM_DA\TH_BM_DA\obj\Debug\TH_BM_DA.ViewCongDan.resources
+D:\TongHop\THBM\VNeID\TH_BM_DA\TH_BM_DA\obj\Debug\TH_BM_DA.ViewGPLaiXe.resources
+D:\TongHop\THBM\VNeID\TH_BM_DA\TH_BM_DA\obj\Debug\TH_BM_DA.ViewHoKhau.resources
+D:\TongHop\THBM\VNeID\TH_BM_DA\TH_BM_DA\obj\Debug\TH_BM_DA.ViewMain.resources
+D:\TongHop\THBM\VNeID\TH_BM_DA\TH_BM_DA\obj\Debug\TH_BM_DA.csproj.GenerateResource.Cache
+D:\TongHop\THBM\VNeID\TH_BM_DA\TH_BM_DA\bin\Debug\TH_BM_DA.exe.config

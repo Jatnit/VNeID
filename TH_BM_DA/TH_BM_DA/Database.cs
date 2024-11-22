@@ -10,9 +10,9 @@ namespace TH_BM_DA
     class Database
     {
         public static OracleConnection Conn;
-        public static string Host = "localhost"; // Host mặc định
+        public static string Host = "192.168.1.7"; // Host mặc định
         public static string Port = "1521";        // Port mặc định
-        public static string Sid = "orcl";         // SID mặc định
+        public static string Sid = "minh";         // SID mặc định
         public static string User;
         public static string Password;
 
@@ -31,7 +31,7 @@ namespace TH_BM_DA
             // Kiểm tra và thiết lập giá trị mặc định nếu Host, Port hoặc Sid chưa có giá trị
             if (string.IsNullOrEmpty(Host))
             {
-                Host = "localhost"; // Host mặc định
+                Host = "192.168.1.7"; // Host mặc định
             }
             if (string.IsNullOrEmpty(Port))
             {
@@ -39,7 +39,7 @@ namespace TH_BM_DA
             }
             if (string.IsNullOrEmpty(Sid))
             {
-                Sid = "orcl"; // SID mặc định
+                Sid = "minh"; // SID mặc định
             }
 
             string connsys = "";
@@ -77,5 +77,6 @@ namespace TH_BM_DA
             }
             return Conn;
         }
+        
     }
 }

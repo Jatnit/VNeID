@@ -48,6 +48,7 @@
   <ItemGroup>
     <Compile Include="CongDanEmtity.cs" />
     <Compile Include="Database.cs" />
+    <Compile Include="HoKhauEmtity.cs" />
     <Compile Include="Login.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -56,9 +57,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="ViewCongDan.cs">
+    <None Include="ViewCongDan.cs">
       <SubType>Form</SubType>
-    </Compile>
+    </None>
     <Compile Include="ViewCongDan.Designer.cs">
       <DependentUpon>ViewCongDan.cs</DependentUpon>
     </Compile>

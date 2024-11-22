@@ -1,4 +1,4 @@
-﻿using System;
+﻿﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -17,7 +17,7 @@ namespace TH_BM_DA
 
         public ViewCongDan()
         {
-            InitializeComponent();
+           InitializeComponent();
             this.StartPosition = FormStartPosition.CenterScreen;
             comboBoxPhai.Items.Add("Nam");
             comboBoxPhai.Items.Add("Nữ");
@@ -25,7 +25,7 @@ namespace TH_BM_DA
 
         private void btn_logout_Click(object sender, EventArgs e)
         {
-            ViewMain viewmain = new ViewMain();
+           ViewMain viewmain = new ViewMain();
 
             // Ẩn form hiện tại
             this.Hide();
@@ -77,7 +77,7 @@ namespace TH_BM_DA
 
         private void dataGridView1_CellClick(object sender, DataGridViewCellEventArgs e)
         {
-            // Kiểm tra nếu người dùng nhấn vào dòng hợp lệ
+           // Kiểm tra nếu người dùng nhấn vào dòng hợp lệ
             if (e.RowIndex >= 0 && e.RowIndex < dataGridView1.Rows.Count)
             {
                 DataGridViewRow row = dataGridView1.Rows[e.RowIndex];
